@@ -74,7 +74,9 @@ int main(){
     vector<int> nums{1,1,1,2,2,2,2,2,4,4,4,4,4};
 
     cout << "The size of Nums vector is : " << nums.size();
+    
     cout << "\n"; 
+
     vector<int> re =  mjele(nums); 
     print_vector(re) ;
 
